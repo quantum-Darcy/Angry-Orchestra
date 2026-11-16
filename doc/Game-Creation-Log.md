@@ -16,6 +16,8 @@ Mozart - Eine Kleine Nachtmusik / Serenade No. 13 - KV 525.mp3](https://freemusi
 
 - When you lose I wanted the music to stop however when I programmed the music to stop when caught the start music command was in a forever loop causing the music to restart. So first I made it so when the caught message was broadcasted it caused a different code block to loop the caught message forever. However this caused the score counter to increase forever on the lose screen which I didn't like, so used hide variable to remove the score on the you lose screen
 
+- You weren't able to move your sprite at the start of the game which caused you to lose instantly so I set a delay on the attackers to reduce the chances of you instantly losing 
+
 
 
 > **⚠️ AI-generated content:** Below is a summary created by AI on what problems I encountered and how I used Claude if I needed to get unstuck, based on a tutoring session with me (Darcy) on 15-16 November 2026. I built and debugged the game myself in Scratch; Claude acted as a tutor. It mostly gave hints and guiding questions rather than finished code. Each section below says exactly how the AI helped.
